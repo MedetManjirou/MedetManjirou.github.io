@@ -1,0 +1,817 @@
+header {
+    background-image: url(assets/images/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.locked {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+p {
+    font-weight: 400px;
+    font-size: calc(20px + (20 - 20) * ((100vw - 320px) / (1920 - 320)));
+}
+/*--------------------------------------------------------------
+#Навбар
+--------------------------------------------------------------*/
+
+.navbar {
+    margin-right: 100px;
+    position: relative;
+    border: 2px solid #000000;
+    border-radius: 100px;
+}
+
+.navbar-nav {
+    margin-left: 56px;
+}
+
+.nav-link {
+    padding: 0;
+}
+
+.navbar-nav a {
+    margin-top: 10px;
+    color: #000000;
+    font-size: calc(20px + (32 - 20) * ((100vw - 320px) / (1920 - 320)));
+    transition: color 0.3s linear;
+}
+
+.navbar-nav a:hover {
+    color: pink;
+}
+
+.flavors {
+    margin-left: 214px;
+}
+
+.navbar-brand {
+    position: absolute;
+    top: -50%;
+    left: 39%;
+    max-width: 100%;
+}
+
+.navbar-item {
+    max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+#Главная
+--------------------------------------------------------------*/
+.icecream-text h1 {
+    margin-top: 83px;
+    color: #000000;
+    font-weight: bold;
+    font-size: calc(20px + (128 - 20) * ((100vw - 320px) / (1920 - 320)));
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icecream-desc p {
+    margin-bottom: 60px;
+}
+
+.btn-main {
+    margin-top: 88px;
+    padding: 38px 73px 34px 83px;
+    color: #000000;
+    background-color: #F3CB60;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: calc(20px + (28 - 20) * ((100vw - 320px) / (1920 - 320)));
+    box-shadow: 0px 4px 4px 0px #00000040;
+    letter-spacing: 0.12em;
+    border: 3px solid #000000;
+    border-radius: 100px;
+    line-height: 28px;
+    transition: background-color 0.3s linear;
+}
+
+.btn-main:hover {
+    background-color: #ac8314fa;
+}
+
+.isecream-image img{
+    height: auto;
+    width: 100%;
+    max-width: 720px;
+    margin-top: 90px;
+    margin-bottom: 140px;
+}
+
+.icecream-mainmenu {
+    display: flex;
+    justify-content: space-between;
+}
+/*--------------------------------------------------------------
+#О нас
+--------------------------------------------------------------*/
+.milk {
+    background-color: #DAEEFF;
+}
+
+
+.milk-image1 {
+    position: relative;
+    top: -25px;
+    left: -75px;
+    max-width: 100%;
+    z-index: 998;
+    margin-bottom: 13px;
+}
+
+.milk-word {
+    color: #000000;
+    font-weight: bold;
+    font-size: calc(20px + (96 - 20) * ((100vw - 320px) / (1920 - 320)));
+    text-align: center;
+    padding-top: 102px;
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 997;
+    overflow: visible;
+    margin-bottom: 23%;
+    margin-top: -41%;
+}
+
+.milk-btn,
+.flav-btn {
+    letter-spacing: 0.12em;
+    border: 3px solid #000000;
+    border-radius: 100px;
+    padding: 26px 29px 23px 28px;
+    background-color: #F3CB60;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: calc(20px + (24 - 20) * ((100vw - 320px) / (1920 - 320)));
+    transition: background-color 0.3s linear;
+}
+.milk-btn:hover,
+.flav-btn:hover {
+    background-color: #ac8314fa;
+}
+
+.milk-btn-2,
+.flav-btn-2 {
+    margin-left: 42px;
+    letter-spacing: 0.12em;
+    border: 3px solid #F3CB60;
+    border-radius: 100px;
+    padding: 26px 52px 22.5px 53px;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: calc(20px + (24 - 20) * ((100vw - 320px) / (1920 - 320)));
+    transition: background-color 0.3s linear;
+}
+
+.milk-btn-2:hover,
+.flav-btn-2:hover {
+    background-color: rgba(243, 203, 96);
+}
+
+.btn-big {
+    letter-spacing: 0.12em;
+    border: 3px solid #F3CB60;
+    border-radius: 100px;
+    padding: 23px 27px 25px 28px;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: calc(20px + (24 - 20) * ((100vw - 320px) / (1920 - 320)));
+    transition: background-color 0.3s linear;
+    margin-left: 450px;
+    margin-top: 23px;
+}
+
+.btn-big:hover {
+    background-color: rgba(243, 203, 96);
+}
+
+.milk-main {
+    display: flex;
+}
+
+.milk-desc p{
+    margin-left: 190px;
+    margin-top: -150px;
+    margin-bottom: 43px;
+    z-index: 999;
+    overflow: visible;
+}
+
+.milk-big-image img {
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+    max-width: 720px;
+}
+/*--------------------------------------------------------------
+#Продукты
+--------------------------------------------------------------*/
+.products {
+    background-color: #FECDDC;
+}
+
+.product-title h2 {
+    font-size: calc(20px + (64 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-weight: 700;
+    text-shadow: 10px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: #000000;
+    padding-top: 81px;
+}
+
+.product-cones,
+.product-juices,
+.product-creams {
+    border-radius: 20px;
+    background: #DAEEFF;
+    max-width: 445px;
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+
+.product-cones h2 {
+    font-size: calc(20px + (48 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cones-desc {
+    text-align: center;
+}
+
+.cones-icon,
+.juices-icon {
+    margin-bottom: 21px;
+}
+
+.creams-icon {
+    margin-bottom: 25px;
+}
+.img-cns {
+    border: none;
+    margin-bottom: 57px;
+}
+
+.cones-desc p {
+    margin-bottom: 30px;
+}
+
+.fa-solid {
+    font-size: 50px;
+    background-color: #FECDDC;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+}
+
+.fa-solid:hover {
+    transform: scale(1.1);
+}
+
+.product-juices h2 {
+    font-size: calc(20px + (48 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.product-creams h2 {
+    font-size: calc(20px + (48 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-weight: bold;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.creams-item, .juices-item, .cones-item {
+    margin-top: -140px;
+    overflow: visible;
+    max-width: 100%;
+}
+
+.product-main {
+    display: flex;
+    gap: 30px;
+}
+/*--------------------------------------------------------------
+#Вафли
+--------------------------------------------------------------*/
+
+.heavenly-flavors {
+    background-color: #DAEEFF;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: calc(20px + (24 - 20) * ((100vw - 320px) / (1920 - 320)));
+    font-weight: 500;
+    color: #000;
+}
+
+.buttons, .buttons-left, .buttons-right {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons {
+    margin-bottom: 100px;
+}
+
+.vanilla, .blueberry, .chocolate, .strawberry, .pistachio, .mango {
+    overflow: visible;
+    margin-top: -50px;
+}
+
+.vanilla {
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: #F6E6BB;
+    text-align: center;
+    padding: 29.41px 30.61px 26.67px 30px;
+    letter-spacing: 2.88px;
+}
+
+.blueberry {
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: #A470B6;
+    text-align: center;
+    padding: 29.12px 30.37px 26.38px 29.73px;
+    letter-spacing: 2.88px;
+}
+
+.chocolate {
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: #92604C;
+    text-align: center;
+    padding: 27.51px 29.04px 24.82px 28.23px;
+    letter-spacing: 2.88px;
+}
+
+.strawberry {
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: #F09BB2;
+    text-align: center;
+    padding: 27.11px 28.86px 24.51px 27.79px;
+    letter-spacing: 2.88px;
+}
+
+.pistachio {
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: #A5CF8A;
+    text-align: center;
+    padding: 28.95px 30.63px 26.44px 29.37px;
+    letter-spacing: 2.88px;
+}
+
+.mango {
+    border-radius: 100px;
+    border: 3px solid #000;
+    background: #F3CB60;
+    text-align: center;
+    padding: 29.89px 31.52px 27.43px 30.16px;
+    letter-spacing: 2.88px;
+}
+
+.flavors-image img {
+    max-width: 100%;
+    margin-left: -155px;
+}
+
+.flavors-text h2 {
+    color: #000;
+    font-weight: 700;
+    font-size: calc(20px + (96 - 20) * ((100vw - 320px) / (1920 - 320)));
+    text-align: right;
+    text-shadow: 10px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.flavors-text p {
+    text-align: right;
+}
+
+.flav-buttons {
+    margin-top: 50px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.flavors-main {
+    display: flex;
+    justify-content: space-around;
+}
+/*--------------------------------------------------------------
+#Контакты
+--------------------------------------------------------------*/
+
+.contacts {
+    background: #FECDDC;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}
+
+.cont-img {
+    max-width: 100%;
+}
+
+form {
+    margin-top: 17px;
+}
+
+.form_input {
+    border-radius: 14px;
+    border: 2px solid #000;
+    font-size: calc(20px + (32 - 20) * ((100vw - 320px) / (1920 - 320)));
+    padding: 15px 86px 9px 30px;
+}
+
+.form_button {
+    margin-left: 20px;
+    border-radius: 14px;
+    border: 2px solid #000;
+    background: #F3CB60;
+    color: #000;
+    font-size: calc(20px + (32 - 20) * ((100vw - 320px) / (1920 - 320)));
+    padding: 10px 35px;
+    transition: background-color 0.3s linear;
+}
+
+.form_button:hover {
+    background-color: #ac8314fa;
+}
+
+.ii-1, .ii-2, .ii-3 {
+    max-width: 100%;
+    margin-top: 19px;
+}
+
+.ii-3 {
+    margin-left: 14px;
+}
+
+.contact-main {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 65px;
+}
+
+.contact-image img {
+    max-width: 100%;
+    overflow: visible;
+    margin-top: -140px;
+}
+/*--------------------------------------------------------------
+#Футер
+--------------------------------------------------------------*/
+
+.footer_start {
+    background: #F3CB60;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer_text {
+    display: block;
+    margin-top: 60px;
+}
+
+.footer_image::after {
+    content:'';
+    position: absolute;
+    width: 2px;
+    height: 152px;
+    background-color: #000;
+    margin-top: 34px;
+}
+
+.footer_text a {
+    display: block;
+    font-size: calc(20px + (24 - 20) * ((100vw - 320px) / (1920 - 320)));
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s linear;
+    margin-right: 180px;
+}
+
+.footer_text a:hover {
+    color: #FFF;
+}
+
+.footer_form {
+    margin-top: 34px;
+}
+
+.footer_form::before {
+    content:'';
+    position: absolute;
+    width: 2px;
+    height: 152px;
+    background-color: #000;
+}
+
+.subs-1 {
+    padding: 10px 60px 10px 10px;
+    border-radius: 14px;
+    border: 2px solid #000;
+    margin-top: 37px;
+    margin-left: 36px;
+}
+
+.subs-2 {
+    border-radius: 14px;
+    border: 2px solid #FFF;
+    background: #000;
+    color: #F3CB60;
+    padding: 10px 25px;
+    margin-left: 10px;
+    transition: background-color 0.3s linear;
+}
+
+.subs-2:hover {
+    background: #FFF;
+}
+
+.footer_end {
+    background: #000;
+}
+
+.footer_end h3 {
+    padding: 26px;
+    text-align: center;
+    color: #FFF;
+}
+
+.footer_end span {
+    color: #F3CB60;
+}
+
+/*--------------------------------------------------------------
+#Под компьютеры 1300 пикселей
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1300px) {
+    .btn-big {
+        margin-left: 393px;
+    }
+
+    .milk-word {
+        margin-bottom: 29%;
+        margin-top: -48%;
+    }
+    .milk-buttons {
+        margin-bottom: 50px;
+    }
+
+    .buttons {
+        display: inline-block;
+        margin-left: 20%;
+    }
+
+    .vanilla, .blueberry, .chocolate, .strawberry, .pistachio, .mango {
+        margin-bottom: 60px;
+    }
+
+    .form_button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .icecream-mainmenu, .milk-main, .buttons, .buttons-left, .buttons-right {
+        display: block;
+    }
+    .isecream-image {
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    .milk-word {
+        margin-bottom: 36%;
+        margin-top: -55%;
+    }
+
+    .milk-desc {
+        text-align: right;
+    }
+
+    .milk-desc p {
+        margin-top: 60px;
+    }
+
+    .cones-desc p {
+        margin-inline: 72px;
+    }
+
+    .vanilla, .blueberry, .chocolate, .strawberry, .pistachio, .mango {
+        margin: 20px;
+    }
+
+    .flavors-image {
+        display: none;
+    }
+
+    .flavors-text {
+        margin-left: 45%;
+        margin-bottom: 5%;
+    }
+
+    .contact-image img {
+        margin-top: -108px;
+    }
+
+    .form_button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .footer_text a {
+        margin-right: 0;
+    }
+
+    .navbar-brand {
+        left: 41%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        border: none;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .flavors, .flavors-text {
+        margin-left: 0;
+    }
+
+    .milk-image1 {
+        top: -19px;
+    }
+
+    .milk-word {
+        margin-bottom: 38%;
+        margin-top: -59%;
+    }
+
+    .product-main {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 17%;
+    }
+
+    .contact-image img {
+        margin-top: -78px;
+        margin-left: 30px;
+    }
+
+    .subs-1 {
+        margin-top: 15px;
+    }
+
+    .subs-2 {
+        margin-left: 34px;
+        margin-top: 5px;
+    }
+
+    .nav-link {
+        margin-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .icecream-desc p {
+        margin-right: 138px;
+    }
+
+    .milk-word {
+        margin-bottom: 38%;
+        margin-top: -59%;
+    }
+
+    .milk-image1 {
+        top: -13px;
+    }
+
+    .btn-big, .milk-desc p, .product-main {
+        margin-left: 0;
+    }
+
+    .milk-desc {
+        text-align: left;
+    }
+
+    .contact-image img, .footer_image {
+        display: none;
+    }
+
+    .footer_form form {
+        margin-top: 0;
+    }
+
+    .footer_text {
+        margin-top: 32px;
+    }
+    
+    .footer_form::before {
+        height: 134px;
+    }
+
+    .product-main {
+        margin-left: 9%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .icecream-desc p {
+        margin-right: 0;
+    }
+
+    .milk-image1 {
+        left: -21px;
+        top: -8px;
+    }
+
+    .milk-word {
+        margin-bottom: 38%;
+        margin-top: -75%;
+    }
+
+    .milk-buttons, .footer_text a {
+        text-align: center;
+    }
+
+    .milk-btn, .milk-btn-2, .flav-btn, .flav-btn-2 {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .milk-btn-2 {
+        margin-left: 5px;
+    }
+
+    .vanilla, .footer_text {
+        margin-top: 0;
+    }
+
+    .form_input {
+        padding-right: 0;
+    }
+
+    .contact-image img, .footer_image img, .footer_form::before {
+        display: none;
+    }
+    .footer_start {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .subs-1, .subs-2 {
+        margin-left: 0;
+    }
+
+    .subs-2 {
+        margin-bottom: 10px;
+    }
+
+    .flav-buttons {
+        text-align: center;
+    }
+
+    .flav-btn-2 {
+        margin-left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .milk-word {
+        margin-bottom: 38%;
+        margin-top: -81%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    
+}
